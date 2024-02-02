@@ -38,3 +38,11 @@ app.get("/blogs/", async (request, response) => {
     const blogsArray = await db.all(getBlogsArray);
     response.send(blogsArray);
 });
+
+app.get("/blogs/:id", async (request, response) => {
+  const {id}=request.params
+  const getBlogsArray = `
+  select blogs.id as id,blogs.name as name,blogs.image as image,description.description as description, details.author as author,details.date as date from (blogs inner join description on blogs.id=description.id) as T inner join details on T.id=details.id where blogs.id=${id};`;
+  const blogsArray = await db.get(getBlogsArray);
+  response.send(blogsArray);
+});

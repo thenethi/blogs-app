@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Building a Dynamic Website for a Digital Marketing Company
+    
+## Objective
 
-## Available Scripts
+    The goal of this assignment is to assess skills in building a modern, visually appealing,
+    and user friendly dynamic website using the MERN (MongoDB, Express.js, React.js, Node.js)
+    stack. The website should represent a fictional digital marketing company, showcasing
+    various pages and features.
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+    HTML, CSS, Javascript(ES6+), React.js, Node.js, SQLite
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Completion Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Functionality
 
-### `npm test`
+#### Must Have
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    1. Landing Page:
+        • Create an engaging landing page with a clear call to action.
+        • Implement smooth animations or transitions for an enhanced user
+          experience.
+        • Include relevant sections introducing the digital marketing company's core
+          values and services.
 
-### `npm run build`
+    2. About Us Page:
+        • Develop a page providing information about the digital marketing company,
+          its mission, and team members.
+        • Use a clean and minimalistic design for improved readability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    3. Blog Page:
+        • Implement a blog page that displays multiple blog posts.
+        • Each blog post should have a featured image, title, brief description, and a
+          "Read More" link.
+        • Clicking on a blog post should lead to a detailed page with the full content.
+    
+    4. Services Page:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+        • Create a services page showcasing cards for various services the digital
+          marketing agency provides.
+        • When a service card is clicked, it should redirect to a new page providing
+          detailed information about that specific service.
+        • Use effective design to highlight key features of each service.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    5. Contact Us Form:
+        • Design a Contact Us form with fields for name, email, phone, and message.
+        • On form submission, the information should be sent to a designated email
+          address.
+        • Implement client-side and server-side form validation.
+    
 
-### `npm run eject`
+#### Nice to Have
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    1. Performance Optimization:
+        • Ensure the website is optimized for fast loading speed.
+        • Implement lazy loading for images and optimize other assets.
+    
+    2. Responsive Design:
+        • Make the website fully responsive for various devices and screen sizes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    3. Database Integration:
+        • Use SQLite or MongoDB to store and retrieve data dynamically.
+        • Implement CRUD operations for blog posts.
+    
+    4. Security:
+        • Implement necessary security measures to prevent common web
+        vulnerabilities.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Guidelines to develop a project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Must Have
 
-## Learn More
+    • Submit the assignment as a GitHub repository containing both frontend (React.js)
+      and backend (Node.js, Express.js, MongoDB) code.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    • Include a README file with clear instructions on how to run the application locally.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    • Provide any additional information or explanations regarding design choices or
+      features in the README.
 
-### Code Splitting
+    • Additionally, deploy the website using any free hosting service (e.g., Heroku, Netlify)
+      and share the live link in the README.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Submission Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Must Have
 
-### Making a Progressive Web App
+    • Technical Skills: Ability to effectively use the MERN stack, implement dynamic
+      features, and integrate with a MongoDB database.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    • Design and UI/UX: Creation of a visually appealing, user-friendly, and minimalistic
+      interface.
 
-### Advanced Configuration
+    • Performance Optimization: Implementation of optimizations for fast loading speed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    • Code Quality: Clean, well-structured, and maintainable code.
 
-### Deployment
+    • Deployment: Successful deployment of the website on a hosting service with a
+      provided live link.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Design files
+
+    • Used Freepik for images and hosted those images in cloudinary.
+
+### APIs
+
+    • Get All Blogs API, Get Specified Blog API
+
+### Third-party packages
+
+    • react-router-dom, react-icons, emailjs, express, sqlite, sqlite3, cors
+### branches
+
+    • main branch - frontend
+    • master branch - backend
+
+### Instruction to execute
+
+    • run npm install
+    • run npm start for frontend
+    • run node index.js for backend
+    
